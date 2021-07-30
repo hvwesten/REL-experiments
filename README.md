@@ -40,4 +40,7 @@ You can then execute the following steps:
 
 The code contains comments that should help with understanding the steps. Finally, we provide the following diagram as an overview of the various steps that we just described.
 
-![](./images/diagram.svg)
+
+<p align="center">
+  <img src="images/diagram.svg">
+</p>
