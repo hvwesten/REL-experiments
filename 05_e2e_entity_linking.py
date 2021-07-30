@@ -6,12 +6,15 @@ from REL.server import make_handler
 
 wiki_version = "wiki_2019"
 base_url = "/home/hvwesten/Projects/thesis/data/"
-# model_path = f"{base_url}/{wiki_version}/baseline/model"
-#model_path = f"{base_url}/{wiki_version}/baseline_cw/model"
-#model_path = f"{base_url}/{wiki_version}/baseline_cw_2/model"
-# model_path = f"{base_url}/{wiki_version}/baseline_cw_3/model"
-# model_path = f"{base_url}/{wiki_version}/baseline_cw_4/model"
+
+# These are all the same paths we used to save our models
+
 model_path = f"{base_url}/{wiki_version}/baseline_cw_5/model"
+
+# model_path = f"{base_url}/{wiki_version}/baseline_cw_7/model"
+# model_path = f"{base_url}/{wiki_version}/baseline_cw_9/model"
+# model_path = f"{base_url}/{wiki_version}/baseline_cw_14/model"
+
 
 config = {
     "mode": "eval",

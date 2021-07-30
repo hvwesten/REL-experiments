@@ -6,7 +6,10 @@ wiki_version = "wiki_2019"
 
 datasets = TrainingEvaluationDatasets(base_url, wiki_version).load()
 
-# model_pth = f"{base_url}/{wiki_version}/baseline_cw_5/model"
+
+# These are all the paths we use to save our models
+
+model_pth = f"{base_url}/{wiki_version}/baseline_cw_5/model"
 # model_pth = f"{base_url}/{wiki_version}/baseline_cw_6/model"
 # model_pth = f"{base_url}/{wiki_version}/baseline_cw_7/model"
 # model_pth = f"{base_url}/{wiki_version}/baseline_cw_8/model"
@@ -16,7 +19,15 @@ datasets = TrainingEvaluationDatasets(base_url, wiki_version).load()
 # model_pth = f"{base_url}/{wiki_version}/baseline_cw_11/model"
 # model_pth = f"{base_url}/{wiki_version}/baseline_cw_12/model"
 # model_pth = f"{base_url}/{wiki_version}/baseline_cw_13/model"
-model_pth = f"{base_url}/{wiki_version}/baseline_cw_14/model"
+# model_pth = f"{base_url}/{wiki_version}/baseline_cw_14/model"
+
+# model_pth = f"{base_url}/{wiki_version}/baseline_cw_15/model"
+# model_pth = f"{base_url}/{wiki_version}/baseline_cw_16/model"
+
+# model_pth = f"{base_url}/{wiki_version}/baseline_cw_17/model"
+# model_pth = f"{base_url}/{wiki_version}/baseline_cw_18/model"
+
+print(f"model_pth:{model_pth}")
 
 config = {
     "mode": "eval",

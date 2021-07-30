@@ -7,7 +7,7 @@ from mapping.freebasewikimapper import FreebaseWikipediaMapper
 from REL.wikipedia import Wikipedia
 
 '''
-    Program that processes the entire ClueWeb09 dataset (as .tgz files)
+    Program that processes an entire ClueWeb dataset (as .tgz files)
     and saves the mentions, entities and the counts into a JSON file
     Needs REL to be installed (https://github.com/informagi/rel)
 '''
