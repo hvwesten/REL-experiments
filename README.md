@@ -24,7 +24,7 @@ You can then execute the following steps:
 
 0. Generate ClueWeb counts with *00\_clueweb\_to\_json.py*.
 
-1. Create $p(e|m)$ in one of two ways:
+1. Create `p(e|m)` in one of two ways:
 
         a) Using memory, with *01a\_generate\_pem\_clueweb.py*
 
